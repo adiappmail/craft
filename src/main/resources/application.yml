@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /craft
+  port: 9091
+
+spring:
+  data:
+    mongodb:
+      database: craft
+      host: localhost
+      port: 27017
+
+app:
+  map:
+    product1: http://localhost:9091/craft/v1/products/product1/mock
+    product2: http://localhost:9091/craft/v1/products/product2/mock
+    product3: http://localhost:9091/craft/v1/products/product3/mock

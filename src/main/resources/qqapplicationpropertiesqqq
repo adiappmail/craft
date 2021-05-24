@@ -1,0 +1,15 @@
+
+
+
+server.port = 9091
+
+app.map
+product1=localhost
+app.map.product2=localhost
+app.map.product3=localhost
+spring.application.name = craft
+spring.data.mongodb.database=craft
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+
+
